@@ -1,1 +1,10 @@
 <h1>Home Page</h1>
+
+<div id="content">
+  <dl>
+    <% songs.each do |song| -%>
+      <dt>Title</dt>
+      <dd><%= song.title %></dd>
+    <% end -%>
+  </dl>
+</div>
